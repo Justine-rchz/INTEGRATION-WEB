@@ -1,0 +1,26 @@
+$backgroundColor :rgba(17, 17, 139, 1);
+$backgroundArticle : rgba(238, 238, 252, 1);
+$fontColorText :black;
+$fontColor :rgba(17, 17, 139, 1);
+$fontColorWhite : white;
+$fontSizeTexte: 23px;
+
+@mixin blocArticle (){
+    margin: 54px 60px 35px 60px;
+    padding: 38px;
+    background-color: $backgroundArticle;
+    border-radius: 15px;
+    h2 {
+        color: $fontColor;
+        font-size: 45px;
+        padding-bottom: 14px;
+    }
+    p {
+        color: $fontColorText;
+        font-weight: 400;
+    }
+    article {
+        padding: 38px;
+    }
+}
+

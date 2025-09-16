@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  font-family: "Lato", serif;
+}
+
+header {
+  background-color: rgb(17, 17, 139);
+}
+header h1 {
+  padding: 23px 60px;
+  color: white;
+  font-size: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+.intro {
+  padding: 50px 60px;
+}
+.intro h1 {
+  color: rgb(17, 17, 139);
+  font-size: 60px;
+  padding-bottom: 14px;
+}
+.intro p {
+  padding-bottom: 24px;
+  font-size: 23px;
+}
+.intro button {
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(17, 17, 139);
+  color: white;
+  font-size: 23px;
+  padding: 16px 24px;
+}
+.intro button:hover {
+  background-color: rgb(0, 0, 255);
+}
+
+article {
+  margin: 54px 60px 35px 60px;
+  padding: 38px;
+  background-color: rgb(238, 238, 252);
+  border-radius: 15px;
+}
+article h2 {
+  color: rgb(17, 17, 139);
+  font-size: 45px;
+  padding-bottom: 14px;
+}
+article p {
+  color: black;
+  font-weight: 400;
+}
+article article {
+  padding: 38px;
+}/*# sourceMappingURL=style.css.map */
